@@ -56,7 +56,21 @@
                     </div>
                     <figure class="hero-image">
                         <div class="image-frame">
-                            <img src="img/hero-lofoten.jpg" alt="A jagged, mountain peak rising dimly lit sunset sky." width="6000" height="4000">
+                            <img 
+                                src="img/hero-lofoten.jpg"
+                                alt="A jagged, mountain peak rising dimly lit sunset sky."
+                                srcset="
+                                    img/hero-lofoten-640.webp 640w,
+                                    img/hero-lofoten-1280.webp 1280w,
+                                    img/hero-lofoten-1920.webp 1920w
+                                "
+                                sizes="
+                                    (max-width: 533px) calc(100vw - 2rem),
+                                    (max-width: 1000px) 94vw,
+                                    496px
+                                "
+                                width="1920" height="2400"
+                                fetchpriority="high">
                         </div>
                         <figcaption><span>Field location</span> Lofoten, Norway · 68.2088°N</figcaption>
                     </figure>
@@ -77,7 +91,22 @@
                         <article class="expedition-card">
                             <a href="#">
                                 <div class="expedition-image">
-                                    <img src="img/expedition-lofoten.jpg" alt="Sea kayakers crossing a fjord beneath steep mountains in Norway&#x27;s Lofoten Islands." width="6000" height="4000">
+                                    <img
+                                        src="img/expedition-lofoten-1280.webp"
+                                        srcset="
+                                            img/expedition-lofoten-400.webp 400w,
+                                            img/expedition-lofoten-800.webp 800w,
+                                            img/expedition-lofoten-1280.webp 1280w,
+                                        "
+                                        sizes="
+                                            (max-width: 750px) calc(100vw - 2rem),
+                                            (max-width: 1380px) calc(50vw - 4rem),
+                                            330px
+                                        " 
+                                        alt="Sea kayakers crossing a fjord beneath steep mountains in Norway&#x27;s Lofoten Islands."
+                                        width="1280" height="853"
+                                        loading="lazy"
+                                    >
                                 </div>
                                 <div class="expedition-content">
                                     <p class="expedition-location">68.2088°N · Lofoten, Norway</p>
@@ -94,7 +123,22 @@
                         <article class="expedition-card">
                             <a href="#">
                                 <div class="expedition-image">
-                                    <img src="img/expedition-westfjords.jpg" alt="A Hiker crossing a remote mountain ridge above a broad fjord and fast flowing waterfall in north-west Iceland." width="6000" height="4000">
+                                    <img
+                                        src="img/expedition-westfjords-1280.webp"
+                                        srcset="
+                                            img/expedition-westfjords-400.webp 400w,
+                                            img/expedition-westfjords-800.webp 800w,
+                                            img/expedition-westfjords-1280.webp 1280w,
+                                        "
+                                        sizes="
+                                            (max-width: 750px) calc(100vw - 2rem),
+                                            (max-width: 1380px) calc(50vw - 4rem),
+                                            330px
+                                        " 
+                                        alt="A Hiker crossing a remote mountain ridge above a broad fjord and fast flowing waterfall in north-west Iceland."
+                                        width="1280" height="800"
+                                        loading="lazy"
+                                    >
                                 </div>
                                 <div class="expedition-content">
                                     <p class="expedition-location">65.7500°N · Westfjords, Iceland</p>
@@ -111,7 +155,22 @@
                         <article class="expedition-card">
                             <a href="#">
                                 <div class="expedition-image">
-                                    <img src="img/expedition-faroe.jpg" alt="Two campers sitting by a campfire at dusk under a poled canopy" width="6000" height="4000">
+                                    <img
+                                        src="img/expedition-faroe-1280.webp"
+                                        srcset="
+                                            img/expedition-faroe-400.webp 400w,
+                                            img/expedition-faroe-800.webp 800w,
+                                            img/expedition-faroe-1280.webp 1280w,
+                                        "
+                                        sizes="
+                                            (max-width: 750px) calc(100vw - 2rem),
+                                            (max-width: 1380px) calc(50vw - 4rem),
+                                            330px
+                                        " 
+                                        alt="Two campers sitting by a campfire at dusk under a poled canopy"
+                                        width="1280" height="855"
+                                        loading="lazy"
+                                    >
                                 </div>
                                 <div class="expedition-content">
                                     <p class="expedition-location">62.0079°N · Faroe Islands</p>
@@ -128,7 +187,22 @@
                         <article class="expedition-card">
                             <a href="#">
                                 <div class="expedition-image">
-                                    <img src="img/expedition-highlands.jpg" alt="A small group walking through snow-covered mountains in the Scottish Highlands beneath a dark winter sky." width="6000" height="4000">
+                                    <img
+                                        src="img/expedition-highlands-1280.webp"
+                                        srcset="
+                                            img/expedition-highlands-400.webp 400w,
+                                            img/expedition-highlands-800.webp 800w,
+                                            img/expedition-highlands-1280.webp 1280w,
+                                        "
+                                        sizes="
+                                            (max-width: 750px) calc(100vw - 2rem),
+                                            (max-width: 1380px) calc(50vw - 4rem),
+                                            330px
+                                        " 
+                                        alt="A small group walking through snow-covered mountains in the Scottish Highlands beneath a dark winter sky."
+                                        width="1280" height="853"
+                                        loading="lazy"
+                                    >
                                 </div>
                                 <div class="expedition-content">
                                     <p class="expedition-location">57.1200°N · Scottish Highlands</p>
@@ -150,7 +224,24 @@
             <section class="approach" id="approach" aria-labelledby="approach-title">
                 <div class="container approach-layout">
                     <figure class="approach-image">
-                        <img src="img/furthernorth-way.jpg" alt="A mountaineer in bright orange cold-weather gear standing high on a snowy mountain." width="6000" height="4000">
+                        <img
+                            src="img/furthernorth-way-800.webp"
+                            alt="A mountaineer in bright orange cold-weather gear standing high on a snowy mountain."
+                            srcset="
+                                img/furthernorth-way-800.webp 800w,
+                                img/furthernorth-way-1600.webp 1600w,
+                                img/furthernorth-way-2400.webp 2400w
+                            "
+                            sizes="
+                                (max-width: 533px) calc(100vw - 2rem),
+                                (max-width: 1067px) 94vw,
+                                (max-width: 1200px) calc(100vw - 4rem),
+                                (max-width: 1456px) 40vw,
+                                583px
+                            "
+                            width="1280" height="1904"
+                            loading="lazy"
+                        >
                     </figure>
                     <div class="approach-content">
                         <p class="section-eyebrow">The FurtherNorth way</p>
@@ -226,7 +317,23 @@
             <section class="testimonial" aria-labelledby="testimonial-title">
                 <div class="container testimonial-layout">
                     <figure class="testimonial-image">
-                        <img src="img/testimonial-westfjords.jpg" alt="A winter hiker carrying snowshoes on a backpack while standing in a snowy mountain forest." width="6000" height="4000">
+                        <img
+                            src="img/testimonial-westfjords-800.webp"
+                            srcset="
+                                img/testimonial-westfjords-800.webp 800w,
+                                img/testimonial-westfjords-1600.webp 1600w,
+                                img/testimonial-westfjords-2400.webp 2400w
+                            "
+                            sizes="
+                                (max-width: 533px) calc(100vw - 2rem),
+                                (max-width: 1067px) 94vw,
+                                (max-width: 1200px) calc(100vw - 4rem),
+                                (max-width: 1456px) 40vw,
+                                583px
+                            "
+                            alt="A winter hiker carrying snowshoes on a backpack while standing in a snowy mountain forest."
+                            width="2400" height="1353"
+                            loading="lazy">
                         <figcaption><span>Field location</span> Western Norway · 61.0989°N</figcaption>
                     </figure>
                     <div class="testimonial-content">
@@ -277,15 +384,63 @@
                     </div>
                     <div class="field-strip-grid">
                         <figure class="field-fragment">
-                            <img src="img/field-faroe.jpg" alt="Steep green sea cliffs falling into the North Atlantic in the Faroe Islands." width="6000" height="4000">
+                            <img
+                                src="img/field-faroe-1400.webp"
+                                srcset="
+                                    img/field-faroe-400.webp 400w,
+                                    img/field-faroe-800.webp 800w,
+                                    img/field-faroe-1400.webp 1400w
+                                "
+                                sizes="
+                                    (max-width: 698px) 94vw,
+                                    (max-width: 1056px) calc(47vw - 0.5rem),
+                                    (max-width: 1456px) calc(33.333vw - 2rem),
+                                    453px
+                                "
+                                alt="Steep green sea cliffs falling into the North Atlantic in the Faroe Islands."
+                                width="1400" height="1050"
+                                loading="lazy"
+                            >
                             <figcaption><span class="field-coordinate">62.0079°N</span>   <span class="field-location">Faroe Islands</span></figcaption>
                         </figure>
                         <figure class="field-fragment">
-                            <img src="img/field-lofoten.jpg" alt="A small fishing settlement beneath steep mountains on the coast of Norway&#x27;s Lofoten Islands." width="6000" height="4000">
+                            <img 
+                                src="img/field-lofoten-1400.webp"
+                                srcset="
+                                    img/field-lofoten-400.webp 400w,
+                                    img/field-lofoten-800.webp 800w,
+                                    img/field-lofoten-1400.webp 1400w
+                                "
+                                sizes="
+                                    (max-width: 698px) 94vw,
+                                    (max-width: 1056px) calc(47vw - 0.5rem),
+                                    (max-width: 1456px) calc(33.333vw - 2rem),
+                                    453px
+                                "
+                                alt="A small fishing settlement beneath steep mountains on the coast of Norway&#x27;s Lofoten Islands."
+                                width="1400" height="755"
+                                loading="lazy"
+                            >
                             <figcaption><span class="field-coordinate">68.2088°N</span>   <span class="field-location">Lofoten, Norway</span></figcaption>
                         </figure>
                         <figure class="field-fragment">
-                            <img src="img/field-highlands.jpg" alt="A remote mountain ridge above a broad glen in the Scottish Highlands." width="6000" height="4000">
+                            <img
+                                src="img/field-highlands-1400.webp"
+                                srcset="
+                                    img/field-highlands-400.webp 400w,
+                                    img/field-highlands-800.webp 800w,
+                                    img/field-highlands-1400.webp 1400w
+                                "
+                                sizes="
+                                    (max-width: 698px) 94vw,
+                                    (max-width: 1056px) calc(47vw - 0.5rem),
+                                    (max-width: 1456px) calc(33.333vw - 2rem),
+                                    453px
+                                "
+                                alt="A remote mountain ridge above a broad glen in the Scottish Highlands."
+                                width="1400" height="788"
+                                loading="lazy"
+                            >
                             <figcaption><span class="field-coordinate">57.1200°N</span>   <span class="field-location">Scottish Highlands</span></figcaption>
                         </figure>
                     </div>
